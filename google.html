@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Stocks</title>
+    <link rel="stylesheet" href="google.css">
+</head>
+<body>
+   <div class="chart">
+        <canvas class="canvas" width="800px" height="600px"></canvas>
+        <div class="googleinfo">
+            <section class="stats">
+                <h1>Google Stocks!</h1>
+                <h2>Current Price: $<span class="current-price">0</span></h2>
+                <h2>Predicted Next Price: $<span class="next">0</span></h2>
+            </section>
+        </div>
+    </div>
+    <section class="buy">
+        <section class="bal">
+            <h2>Stocks Owned Of This Variety: <span class="stock">0</span></h2>
+            <h2>Current Balance: $<span class="balance">100000</span></h2>
+        </section>
+        <section class="purch">
+            <section class="adjust">
+                <button class="plus">+</button>
+                <h4 class="value">0</h4>
+                <button class="minus">-</button>
+            </section>
+            <section class="purchase">
+                <button class="buyb">Buy</button>
+                <button class="sell">Sell</button>
+            </section>
+            <h3 class="advice">Advice: </h3>
+        </section>
+    </section>
+    <script src="stocks.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+    background-color: hsl(0 0% 5%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.chart {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: hsl(0 0% 7%);
+    border: 2px solid hsl(0 0% 20%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.googleinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+.buy {
+    height: 300px;
+    padding: 20px;
+    background-color: hsl(0 0% 7%);
+    border: 2px solid hsl(0 0% 20%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.adjust {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.adjust button {
+    height: 50%;
+    background-color: hsl(0 0% 6%);
+    color: white;
+    margin: 5px;
+}
+
+.bal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.purchase {
+    display: flex;
+    justify-content: center;
+}
+.purchase button {
+    border-radius: 12px;
+    margin: 5px;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+}
+.buyb {
+    background-color: hsl(115, 100%, 50%);
+}
+.sell {
+    background-color: red;
+}
+
+.canvas {
+    border: 2px solid hsl(0 0% 20%);
+    border-radius: 10px;
+}
