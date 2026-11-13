@@ -24,7 +24,9 @@ setInterval(() => {
     scwcurrent.textContent = `${Math.floor(scwrng(x+24)*1000)}`
 }, 3000)
 
-
+if (!localStorage.getItem('balance')) {
+    localStorage.setItem('balance', '3000')
+}
 bal.textContent = `Balance: $${localStorage.getItem('balance')}`
 
 document.addEventListener('click', (e) => {
