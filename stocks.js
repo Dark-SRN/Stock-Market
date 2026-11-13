@@ -128,7 +128,7 @@ canvas?.addEventListener('mousemove', (e) => {
             });
 setInterval(() => {
     prices = [];
-    let x = interval(60 * 1000)
+    let x = interval(10 * 60 * 1000)
     for (let i = x; i < (25 + x); i++) {
         prices.push(Math.floor(rng(i) * 1000));
     }
